@@ -5,7 +5,7 @@ require("../src/db/connection")
 const MensRanking = require("../src/models/memes")
 
 const app = express();
-const port = process.env.PORT || 3035;
+const port = process.env.PORT || 80;
 app.use(express.json());
 
 app.post("/mens", async(req, res) => {
